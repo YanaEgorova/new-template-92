@@ -114,7 +114,12 @@
 .prod__text {
     margin-bottom: 2rem;
 }
-
+.disable-btn {
+    pointer-events: none;
+}
+.disable-btn svg {
+    opacity: 0.3;
+}
 
 @media screen and (min-width: 1024px) {
     .prod {
