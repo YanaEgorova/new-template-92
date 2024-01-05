@@ -66,7 +66,8 @@ body.open-menu {
 }
 .cart__span-box {
     font-size: 2.2rem;
-    display: none;
+    display: flex;
+    margin-right: 1rem;
     align-items: center;
 }
 .cart__span-box svg {
@@ -228,7 +229,7 @@ body.open-menu {
         overflow: hidden;
     }
     .nav__item:last-child .nav__sub-list {
-        left: -13rem;
+        left: -16rem;
     }
 
     .nav__item:hover .nav__sub-list {
